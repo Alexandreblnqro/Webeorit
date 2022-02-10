@@ -3,12 +3,14 @@
     {
       "en":[
         {
-          "title":"Webeorit"
+          "title":"Webeorit",
+          "presentationLeft": "Discover information about all the asteroid falling on earth, even while you read this. Sort by your favorite continent or stay in global map and start to explore !"
         }
       ],
       "fr":[
         {
-          "title":"Webeofrench"
+          "title":"Webeofrench",
+          "presentationLeft": "Découvrez des informations sur tous les astéroïdes qui tombent sur la terre, même pendant que vous lisez ceci. Triez par votre continent préféré ou restez dans la carte mondiale et commencez à explorer !"
         }
       ]
     }
