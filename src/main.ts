@@ -6,6 +6,6 @@ $.ajax({
     dataType: 'text',
     success:function(data) {
         let jsonValue = JSON.parse(data);
-        console.log(jsonValue.lang[0].en[0]);
+        console.log(jsonValue.lang);
     }
 });
