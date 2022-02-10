@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+:root {
+  --primary-color: #0C0C31;
+  --secondary-color: #3C07AC;
+  --text-color: #CDD8FF;
+  font-family: "Sora", sans-serif;
+}
+
+[data-theme=light] {
+  --primary-color: #FFFFFF;
+  --secondary-color: #7838FF;
+  --text-color: #100D39;
+}
+
+html, body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  /* AVOIR FOOTER + CONTENT QUI PRENNENT TOUTE LA TAILLE*/
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* TOUT SUR LA NAV BAR*/
+#navigation-mainPage ul {
+  list-style: none;
+  margin: 15px;
+  padding: 0;
+  position: sticky;
+  position: -webkit-sticky;
+}
+#navigation-mainPage li {
+  display: inline;
+  margin-inline: 25px;
+  float: right;
+}
+#navigation-mainPage li a {
+  display: block;
+  font-size: 3em;
+}
+#navigation-mainPage li:first-child {
+  float: left;
+  font-size: 3em;
+}
+
+/* TOUT SUR LE HEADER */
+#header-mainPage {
+  height: 10%;
+}
+
+/* TOUT SUR LE CONTENU */
+#content-mainPage {
+  margin-inline: 25px;
+  margin-block: 3em;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  /* TOUT SUR LE CONTENU GAUCHE*/
+}
+#content-mainPage #leftContent-mainPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+#content-mainPage #leftContent-mainPage p, #content-mainPage #leftContent-mainPage pre {
+  font-size: 1.5em;
+}
+#content-mainPage #leftContent-mainPage img {
+  transform: scaleX(-1);
+  padding-inline: 25%;
+}
+#content-mainPage #rightContent-mainPage {
+  width: 50%;
+  text-align: center;
+}
+#content-mainPage #rightContent-mainPage h1 {
+  font-size: 5em;
+  line-height: 0;
+}
+#content-mainPage #rightContent-mainPage p {
+  margin-bottom: 5%;
+}
+#content-mainPage #rightContent-mainPage button {
+  color: var(--text-color);
+  font-size: 2em;
+}
+#content-mainPage #rightContent-mainPage .mainMenuButton-mainPage {
+  background-color: var(--secondary-color);
+  border-radius: 19px;
+  border-style: none;
+  width: 30vw;
+  height: 12vh;
+  margin-block: 1%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+:root {
+  --primary-color: #0C0C31;
+  --secondary-color: #3C07AC;
+  --text-color: #CDD8FF;
+  font-family: 'Sora', sans-serif;
+}
+
+[data-theme="light"] {
+  --primary-color: #FFFFFF;
+  --secondary-color: #7838FF;
+  --text-color: #100D39;
+}
+
+html, body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+
+  height: 100%;
+  margin: 0;
+}
+
+main { /* AVOIR FOOTER + CONTENT QUI PRENNENT TOUTE LA TAILLE*/
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* TOUT SUR LA NAV BAR*/
+#navigation-mainPage {
+
+  ul {
+    list-style: none;
+    margin: 15px;
+    padding: 0;
+
+    position: sticky;
+    position: -webkit-sticky;
+  }
+
+  li {
+    display: inline;
+    margin-inline: 25px;
+    float: right;
+
+    a {
+      display: block;
+      font-size: 3em;
+    }
+  }
+
+  li:first-child {
+    float: left;
+    font-size: 3em;
+  }
+
+}
+
+/* TOUT SUR LE HEADER */
+#header-mainPage {
+  height: 10%;
+}
+
+/* TOUT SUR LE CONTENU */
+#content-mainPage {
+  margin-inline: 25px;
+  margin-block: 3em;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+
+  /* TOUT SUR LE CONTENU GAUCHE*/
+  #leftContent-mainPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    p, pre{
+      font-size: 1.5em;
+    }
+
+    img {
+      transform: scaleX(-1);
+      padding-inline: 25%;
+    }
+  }
+
+#rightContent-mainPage{
+  width: 50%;
+  text-align: center;
+
+  h1{
+    font-size: 5em;
+    line-height: 0;
+  }
+
+  p {
+    margin-bottom: 5%;
+  }
+
+  button{
+    color: var(--text-color);
+    font-size: 2em;
+  }
+
+  .mainMenuButton-mainPage{
+    background-color: var(--secondary-color);
+    border-radius: 19px;
+    border-style: none;
+    width: 30vw;
+    height: 12vh;
+    margin-block: 1%;
+  }
+}
+
+}
+
