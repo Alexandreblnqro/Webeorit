@@ -1,12 +1,16 @@
 {
-  "lang": [
+  "lang":[
     {
-      "en": [{
-        'title': "Webeorit"
-      }],
-      "fr": [{
-        'title': "Webeofrench"
-      }]
+      "en":[
+        {
+          "title":"Webeorit"
+        }
+      ],
+      "fr":[
+        {
+          "title":"Webeofrench"
+        }
+      ]
     }
   ]
-};
+}
