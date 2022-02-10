@@ -12,6 +12,12 @@
           "title":"Webeofrench",
           "presentationLeft": "Découvrez des informations sur tous les astéroïdes qui tombent sur la terre, même pendant que vous lisez ceci. Triez par votre continent préféré ou restez dans la carte mondiale et commencez à explorer !"
         }
+      ],
+      "es": [
+        {
+          "title": "loremIpsum",
+          "presentationLeft": "loremIpsum"
+        }
       ]
     }
   ]
