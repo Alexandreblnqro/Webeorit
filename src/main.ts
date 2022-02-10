@@ -5,8 +5,7 @@ $.ajax({
     type:"get",
     dataType: 'text',
     success:function(data) {
-        console.log(data);
         let jsonValue = JSON.parse(data);
-        console.log(jsonValue)
+        console.log(jsonValue.lang[0].en[0]);
     }
 });
