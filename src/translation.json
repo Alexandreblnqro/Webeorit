@@ -4,13 +4,25 @@
       "en":[
         {
           "title":"Webeorit",
-          "presentationLeft": "Discover information about all the asteroid\n                falling on earth, even while you read this.\n                Sort by your favorite continent or stay\n                in global map and start to explore !"
+          "presentationLeft": "Discover information about all the asteroid\n                falling on earth, even while you read this.\n                Sort by your favorite continent or stay\n                in global map and start to explore !";
+          "menu": [{
+            "World Map": "World Map",
+            "America Map": "America Map",
+            "Europe Map": "Europe Map",
+            "Asia Map": "Asia Map"
+          }]
         }
       ],
       "fr":[
         {
           "title":"Webeofrench",
-          "presentationLeft": "Découvrez des informations sur tous les astéroïdes\n qui tombent sur la terre, même pendant que vous lisez ceci.\n  Triez par votre continent préféré ou restez \n dans la carte mondiale et commencez à explorer !"
+          "presentationLeft": "Découvrez des informations sur tous les astéroïdes\n qui tombent sur la terre, même pendant que vous lisez ceci.\n  Triez par votre continent préféré ou restez \n dans la carte mondiale et commencez à explorer !",
+          "menu": [{
+            "World Map": "Carte monde",
+            "America Map": "Carte amérique",
+            "Europe Map": "Carte europe",
+            "Asia Map": "Carte asie"
+          }]
         }
       ],
       "es": [

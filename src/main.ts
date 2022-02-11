@@ -32,12 +32,12 @@ $.ajax({
             if (activeLang == "en") {
                 $('#titleHeader').text(jsonValue.lang[0].fr[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].fr[0].title);
-                $('#presentationLeft').text(jsonValue.lang[0].fr[0].presentationLeft);
+                //$('#presentationLeft').text(jsonValue.lang[0].fr[0].presentationLeft);
                 activeLang = "fr";
             } else {
                 $('#titleHeader').text(jsonValue.lang[0].en[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].en[0].title);
-                $('#presentationLeft').text(jsonValue.lang[0].en[0].presentationLeft);
+                //$('#presentationLeft').text(jsonValue.lang[0].en[0].presentationLeft);
                 activeLang = "en";
             }
 
