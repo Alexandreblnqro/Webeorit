@@ -71,6 +71,9 @@ main {
 #content-mainPage #leftContent-mainPage p, #content-mainPage #leftContent-mainPage pre {
   font-size: 1.5em;
 }
+#content-mainPage #leftContent-mainPage pre {
+  line-height: 0.8;
+}
 #content-mainPage #leftContent-mainPage img {
   transform: scaleX(-1);
   padding-inline: 25%;

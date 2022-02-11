@@ -82,6 +82,10 @@ main { /* AVOIR FOOTER + CONTENT QUI PRENNENT TOUTE LA TAILLE*/
       font-size: 1.5em;
     }
 
+    pre{
+      line-height: 0.8;
+    }
+
     img {
       transform: scaleX(-1);
       padding-inline: 25%;
