@@ -22,22 +22,17 @@ $.ajax({
                 //console.log($(this).attr("id"));
                 console.log($(this).attr("id")); // RECUPERE L'ID DE L'ELEMENT A TRADUIRE
                 console.log(jsonValue.lang[0].fr[0].title)
-
-                if ($(this).attr("id") == jsonValue.lang[0].fr[0].title) { // SI L'ID DE L'ELEMENT A TRADUIRE == L'ID JSON
-
-
-                }
             })
 
             if (activeLang == "en") {
                 $('#titleHeader').text(jsonValue.lang[0].fr[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].fr[0].title);
-                //$('#presentationLeft').text(jsonValue.lang[0].fr[0].presentationLeft);
+                $('#presentationLeft').text(jsonValue.lang[0].fr[0].presentationLeft);
                 activeLang = "fr";
             } else {
                 $('#titleHeader').text(jsonValue.lang[0].en[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].en[0].title);
-                //$('#presentationLeft').text(jsonValue.lang[0].en[0].presentationLeft);
+                $('#presentationLeft').text(jsonValue.lang[0].en[0].presentationLeft);
                 activeLang = "en";
             }
 
