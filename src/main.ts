@@ -20,14 +20,15 @@ $.ajax({
 
             $.each($(".aTraduire"), function () { // POUR CHAQUE CLASSE A TRADUIRE DANS LE HTML
                 //console.log($(this).attr("id"));
-                console.log($(this).attr("id")); // RECUPERE L'ID DE L'ELEMENT A TRADUIRE
-                console.log(jsonValue.lang[0].fr[0].title)
+                // console.log($(this).attr("id")); // RECUPERE L'ID DE L'ELEMENT A TRADUIRE
             })
+
 
             if (activeLang == "en") {
                 $('#titleHeader').text(jsonValue.lang[0].fr[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].fr[0].title);
                 $('#presentationLeft').text(jsonValue.lang[0].fr[0].presentationLeft);
+                $('#worldMap').text(jsonValue.lang[0].fr[0].menu.WorldMap);
                 activeLang = "fr";
             } else {
                 $('#titleHeader').text(jsonValue.lang[0].en[0].title);

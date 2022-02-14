@@ -6,10 +6,10 @@
           "title":"Webeorit",
           "presentationLeft": "Discover information about all the asteroid\n falling on earth, even while you read this.\n Sort by your favorite continent or stay\n in global map and start to explore !",
           "menu": [{
-            "World Map": "World Map",
-            "America Map": "America Map",
-            "Europe Map": "Europe Map",
-            "Asia Map": "Asia Map"
+            "WorldMap": "World Map",
+            "AmericaMap": "America Map",
+            "EuropeMap": "Europe Map",
+            "AsiaMap": "Asia Map"
           }]
         }
       ],
@@ -18,10 +18,10 @@
           "title":"Webeofrench",
           "presentationLeft": "Découvrez des informations sur tous les astéroïdes\n qui tombent sur la terre, même pendant que vous lisez ceci.\n  Triez par votre continent préféré ou restez \n dans la carte mondiale et commencez à explorer !",
           "menu": [{
-            "World Map": "Carte monde",
-            "America Map": "Carte amérique",
-            "Europe Map": "Carte europe",
-            "Asia Map": "Carte asie"
+            "WorldMap": "Carte monde",
+            "AmericaMap": "Carte amérique",
+            "EuropeMap": "Carte europe",
+            "AsiaMap": "Carte asie"
           }]
         }
       ],
@@ -30,10 +30,10 @@
           "title": "loremIpsum",
           "presentationLeft": "loremIpsum",
           "menu": [{
-            "World Map": "World Map",
-            "America Map": "America Map",
-            "Europe Map": "Europe Map",
-            "Asia Map": "Asia Map"
+            "WorldMap": "World Map",
+            "AmericaMap": "America Map",
+            "EuropeMap": "Europe Map",
+            "AsiaMap": "Asia Map"
           }]
         }
       ]
