@@ -4,6 +4,7 @@
       "en":[
         {
           "title":"Webeorit",
+          "subTitle":"Interactive map of fallen asteroid",
           "presentationLeft": "Discover information about all the asteroid\n falling on earth, even while you read this.\n Sort by your favorite continent or stay\n in global map and start to explore !",
           "menu": [{
             "WorldMap": "World Map",
@@ -16,24 +17,13 @@
       "fr":[
         {
           "title":"Webeofrench",
+          "subTitle":"Carte intéractive des chutes de météorites",
           "presentationLeft": "Découvrez des informations sur tous les astéroïdes\n qui tombent sur la terre, même pendant que vous lisez ceci.\n  Triez par votre continent préféré ou restez \n dans la carte mondiale et commencez à explorer !",
           "menu": [{
             "WorldMap": "Carte monde",
             "AmericaMap": "Carte amérique",
             "EuropeMap": "Carte europe",
             "AsiaMap": "Carte asie"
-          }]
-        }
-      ],
-      "es": [
-        {
-          "title": "loremIpsum",
-          "presentationLeft": "loremIpsum",
-          "menu": [{
-            "WorldMap": "World Map",
-            "AmericaMap": "America Map",
-            "EuropeMap": "Europe Map",
-            "AsiaMap": "Asia Map"
           }]
         }
       ]

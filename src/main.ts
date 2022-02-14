@@ -27,13 +27,22 @@ $.ajax({
             if (activeLang == "en") {
                 $('#titleHeader').text(jsonValue.lang[0].fr[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].fr[0].title);
+                $('#rightSubTitle').text(jsonValue.lang[0].fr[0].subTitle);
                 $('#presentationLeft').text(jsonValue.lang[0].fr[0].presentationLeft);
-                $('#worldMap').text(jsonValue.lang[0].fr[0].menu.WorldMap);
+                $('#worldMap').text(jsonValue.lang[0].fr[0].menu[0].WorldMap);
+                $('#americaMap').text(jsonValue.lang[0].fr[0].menu[0].AmericaMap);
+                $('#europeMap').text(jsonValue.lang[0].fr[0].menu[0].EuropeMap);
+                $('#asiaMap').text(jsonValue.lang[0].fr[0].menu[0].AsiaMap);
                 activeLang = "fr";
             } else {
                 $('#titleHeader').text(jsonValue.lang[0].en[0].title);
                 $('#rightTitle').text(jsonValue.lang[0].en[0].title);
+                $('#rightSubTitle').text(jsonValue.lang[0].en[0].subTitle);
                 $('#presentationLeft').text(jsonValue.lang[0].en[0].presentationLeft);
+                $('#worldMap').text(jsonValue.lang[0].en[0].menu[0].WorldMap);
+                $('#americaMap').text(jsonValue.lang[0].en[0].menu[0].AmericaMap);
+                $('#europeMap').text(jsonValue.lang[0].en[0].menu[0].EuropeMap);
+                $('#asiaMap').text(jsonValue.lang[0].en[0].menu[0].AsiaMap);
                 activeLang = "en";
             }
 
